@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Lab - Shmal</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="custom.css"/>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+<body>
+
+    <!-- Навигационная панель -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="bi bi-code-square me-2"></i>Shmal Dev
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">О себе</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Навыки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#history">История</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero секция -->
+    <div class="container-fluid bg-light py-5" id="home">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold">Shmal</h1>
+            <p class="lead fs-3">Веб-разработчик и создатель цифровых решений</p>
+            <p class="mb-4">Превращаю идеи в современные и функциональные веб-сайты</p>
+            <a href="#contact" class="btn btn-primary btn-lg">
+                <i class="bi bi-envelope-fill me-2"></i>Связаться со мной
+            </a>
+            <a href="#portfolio" class="btn btn-outline-light btn-lg ms-3">
+                <i class="bi bi-images me-2"></i>Мои работы
+            </a>
+        </div>
+    </div>
+    <!-- Секция "О себе" -->
+     <div class="container my-5" id="services">
+        <div class="container">
+            <h2 class="text-center mb-5">Обо мне</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <!-- Аватар/фото -->
+                    <div class="position-relative d-inline-block">
+                        <img src="photo_2026-02-17_19-15-44.jpg" alt="Аватар" class="rounded-circle img-fluid border border-4 border-primary" style="width: 250px; height: 250px; object-fit: cover;">
+                        <span class="position-absolute bottom-0 end-0 bg-success p-2 rounded-circle">
+                            <i class="bi bi-check-lg text-white"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h3>Привет! Я Джовани</h3>
+                    <p class="lead">Начинающий веб-разработчик с большим интересом к созданию красивых и функциональных сайтов.</p>
+                    <p>Мой путь в веб-разработке начался в 2026 году с изучения HTML и CSS. С тех пор я постоянно развиваюсь, осваиваю новые технологии и создаю проекты, которыми могу гордиться. Сегодня я владею современными инструментами фронтенд-разработки и продолжаю учиться новому каждый день.</p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Ответственный</li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Внимательный к деталям</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Быстро обучаюсь</li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Командный игрок</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Секция "Навыки/Услуги" -->
+        <div class="container">
+            <h2 class="text-center mb-5">Мои навыки</h2>
+            <div class="row g-4">
+                <!-- Карточка 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="display-1 text-primary mb-3">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h5 class="card-title">Веб-разработка</h5>
+                            <p class="card-text">Создаю современные адаптивные сайты с использованием HTML5, CSS3 и JavaScript.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-1">HTML</span>
+                                <span class="badge bg-primary me-1">CSS</span>
+                                <span class="badge bg-primary">JS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Карточка 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="display-1 text-success mb-3">
+                                <i class="bi bi-bootstrap-fill"></i>
+                            </div>
+                            <h5 class="card-title">Bootstrap 5</h5>
+                            <p class="card-text">Профессионально владею Bootstrap для быстрой разработки адаптивных интерфейсов.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-success me-1">Grid</span>
+                                <span class="badge bg-success me-1">Components</span>
+                                <span class="badge bg-success">Utilities</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Карточка 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="display-1 text-warning mb-3">
+                                <i class="bi bi-palette-fill"></i>
+                            </div>
+                            <h5 class="card-title">Python/C#/Kotlin/Rust.</h5>
+                            <p class="card-text">Знание языков на базовом уровне.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-warning text-dark me-1">Python</span>
+                                <span class="badge bg-warning text-dark me-1">C#</span>
+                                <span class="badge bg-warning text-dark me-1">Kotlin</span>
+                                <span class="badge bg-warning text-dark">RUST</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+        <h2 class="text-center mb-5">Моя История</h2>
+ <!-- Временная шкала -->
+        <div class="timeline">
+    <!-- Событие 1 (справа) -->
+            <div class="timeline-item timeline-item-right">
+                <div class="timeline-content">
+                    <span class="badge bg-primary mb-2">
+                        <i class="bi bi-mortarboard-fill"></i> 2023
+                    </span>
+                    <h5>Поступление в университет</h5>
+                    <p class="text-muted">Начал изучать веб-разработку и программирование</p>
+                </div>
+            </div>
+    <!-- Событие 2 (слева) -->
+            <div class="timeline-item timeline-item-left">
+                <div class="timeline-content">
+                    <h5>Первый веб-сайт</h5>
+                    <p class="text-muted">Создал свой первый сайт на HTML и CSS</p>
+                </div>
+            </div>
+    <!-- Событие 3 (справа) -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="badge bg-warning text-dark mb-2">
+                        <i class="bi bi-code-slash"></i> 2024
+                    </span>
+                    <h5>Начал учить продвинутую разработку сайта на CSS</h5>
+                    <p class="text-muted">Начал изучать веб-разработку и программирование</p>
+                </div>
+            </div>
+    <!-- Событие 4 (слева) - новое -->
+            <div class="timeline-item timeline-item-left">
+                <div class="timeline-content">
+                    <h5>Сайт портфолио</h5>
+                    <p class="text-muted">Создал свой сайт-портфолио на HTML и CSS</p>
+                </div>
+            </div>
+    <!-- Событие 5 (справа) - новое -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="badge bg-danger mb-2">
+                        <i class="bi bi-heart-fill"></i> 2025
+                    </span>
+                    <h5>Занялся веб-разработкой</h5>
+                    <p class="text-muted">Изучил адаптивную верстку, JS, node.js</p>
+                </div>
+            </div>
+    <!-- Событие 6 (слева) - новое -->
+            <div class="timeline-item timeline-item-left">
+                <div class="timeline-content">
+                    <h5>Личный сайт</h5>
+                    <p class="text-muted">Создал свой крутой сайт, которым хвастаюсь перед друзьями</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Секция с формой -->
+    <div class="container">
+            <h2 class="text-center mb-5">Свяжитесь со мной</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form id="contactForm" class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <!-- Имя -->
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Ваше имя</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                    <input type="text" class="form-control" id="name" placeholder="Иван Иванов" required>
+                                </div>
+                                <div class="invalid-feedback">Пожалуйста, введите ваше имя</div>
+                            </div>
+                            <!-- Email -->
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                                    <input type="email" class="form-control" id="email" placeholder="ivan@example.com" required>
+                                </div>
+                                <div class="invalid-feedback">Пожалуйста, введите корректный email</div>
+                            </div>
+                            <!-- Сообщение -->
+                            <div class="col-12">
+                                <label for="message" class="form-label">Сообщение</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-chat-dots-fill"></i></span>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Ваше сообщение..." required></textarea>
+                                </div>
+                                <div class="invalid-feedback">Пожалуйста, введите сообщение</div>
+                            </div>
+                            <!-- Согласие -->
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="agree" required>
+                                    <label class="form-check-label" for="agree">
+                                        Я согласен на обработку персональных данных
+                                    </label>
+                                    <div class="invalid-feedback">Необходимо согласие</div>
+                                </div>
+                            </div>
+                            <!-- Кнопка отправки -->
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg px-5">
+                                    <i class="bi bi-send-fill me-2"></i>Отправить сообщение
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <!-- Футер -->
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5><i class="bi bi-code-square me-2"></i>Shmal Dev</h5>
+                    <p>Создаю современные веб-решения с душой и вниманием к деталям. Всегда открыт для новых проектов и сотрудничества.</p>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="bi bi-github fs-4"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-telegram fs-4"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-linkedin fs-4"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-instagram fs-4"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Навигация</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-decoration-none"><i class="bi bi-chevron-right me-2"></i>Главная</a></li>
+                        <li class="mb-2"><a href="#about" class="text-decoration-none"><i class="bi bi-chevron-right me-2"></i>О себе</a></li>
+                        <li class="mb-2"><a href="#skills" class="text-decoration-none"><i class="bi bi-chevron-right me-2"></i>Навыки</a></li>
+                        <li class="mb-2"><a href="#portfolio" class="text-decoration-none"><i class="bi bi-chevron-right me-2"></i>Портфолио</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-decoration-none"><i class="bi bi-chevron-right me-2"></i>Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Контакты</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-envelope-fill me-2"></i>shmal@example.com</li>
+                        <li class="mb-2"><i class="bi bi-telephone-fill me-2"></i>+7 (999) 123-45-67</li>
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i>Волжский, Россия</li>
+                        <li class="mb-2"><i class="bi bi-clock-fill me-2"></i>Пн-Пт: 9:00 - 18:00</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2026 Shmal Dev. Все права защищены.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Создано с <i class="bi bi-heart-fill text-danger"></i> и Bootstrap 5</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение Bootstrap 5 JS (для работы модалок, аккордеона и т.д.) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Скрипт для валидации формы -->
+    <script>
+        // Валидация формы Bootstrap
+        (function () {
+            "use strict";
+            const form = document.getElementById("contactForm");
+            form.addEventListener(
+                "submit",
+                function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    } else {
+                        event.preventDefault();
+                        alert("Форма успешно отправлена!");
+                        form.reset();
+                        form.classList.remove("was-validated");
+                    }
+                    form.classList.add("was-validated");
+                },
+                false
+            );
+        })();
+    </script>
+
+</body>
+</html>
