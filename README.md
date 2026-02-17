@@ -1,7 +1,9 @@
 # Лабораторная работа №12-13: Введение в Bootstrap
 
 **Студент: Шмаль Иван Максимович**
+
 **Группа: ИСП-232**
+
 **Дата: 17.02.26**
 
 ___
@@ -24,14 +26,23 @@ ___
 ## Структура проекта:
 
 Lab13_Bootstrap_Shmal/
+
 ├── `index.html` *# Главная страница*
+
 ├── `custom.css` *# Кастомные стили*
+
 ├── ...
+
 ├── `README.md` *# Описание проекта*
+
 └── `img/` *# Скриншоты*
+
  ├── `gitPushLab13_Bootstrap_Shmal.png`
+ 
  ├── `step2_bootstrapConnectionLab13_Shmal.png`
+ 
  ├── `step3_gridMobileLab13_Shmal.png`
+ 
  └── ...
 
 ___
@@ -53,6 +64,11 @@ ___
 ___
 
 ## Ссылки:
+
 Bootstrap Documentation https://getbootstrap.com/docs/5.3/
+
 GitHub Repository https://github.com/shcmal-chel/isrpo-lab13/tree/master
-© 2026 Шмаль Иван Максимович. Лабораторная работа по веб-разработке.
+
+© 2026 Шмаль Иван Максимович. 
+
+Лабораторная работа по веб-разработке.
